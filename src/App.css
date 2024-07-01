@@ -120,3 +120,173 @@
   right: 10%;
   top: 1700px;
 }
+.circle-dots{
+  border: 5px solid #fde5ea;
+  border-radius: 50%;
+  width: 272px;
+  height: 272px;
+  position: relative;
+  top: 550px;
+}
+.circle-dots-img{
+ margin-top: 10px;
+ 
+}
+
+.dot1{
+  top: 2250px;
+  left: 135px;
+  border-radius: 50%;
+}
+.dot2{
+  top: 2250px;
+  right: 135px;
+  border-radius: 50%;
+}
+.dot3{
+  top: 2434px;
+  border-radius: 50%;
+  right: 135px;
+}
+.dot4{
+  top: 2434px;
+  border-radius: 50%;
+  left: 135px;
+}
+
+.new-products-container{
+position: relative;
+top: 770px;
+display: flex;
+justify-content: center;
+flex-direction: column;
+}
+.img-container{
+  display: flex;
+  justify-content: center;
+}
+.new-products-container> p{
+  text-align: center;
+  margin-top: 10px;
+}
+.new-product-p{
+  color: #9c0746;
+  font-size: 22px;
+  line-height: 26px;
+  font-weight: 600;
+  
+}
+
+.new-product-btn{
+  width: 160px;
+  height: 45px;
+  border-radius : 50px;
+  background: linear-gradient(85.61deg, #9C0746 -15.57%, #B44E79 128.11%);
+  box-shadow: 0px 20px 40px 0px #42021D4F;
+  margin: auto;
+  margin-bottom: 50px;
+
+}
+.how-we-work-container{
+  position: relative;
+  top: 900px;
+ 
+}
+.how-we-work{
+width: 294px;
+height: 339px;
+border-radius:5px;
+border:1px solid #FFD4DD;
+display: flex;
+
+align-items: center;
+flex-direction: column;
+margin: auto;
+margin-top:20px ;
+
+}
+.how-we-work1{
+  margin-top: 40px;
+width: 80px;
+height: 80px;
+background: #FFD4DD;
+box-shadow: 0px 4px 30px 0px #4306204D;
+border-radius: 50%;
+
+}
+.how-we-work1 > p{
+  font-size: 30px;
+  font-weight: 900;
+  text-align: center;
+  line-height: 36px;
+  color: #B44E79;
+  margin-top: 20px;
+
+}
+.how-we-work > h4{
+  font-size: 22px;
+  font-weight: 900;
+  line-height: 26px;
+  text-align: center;
+  color: #B44E79;
+  margin-bottom: 20px;
+  margin-top: 20px;
+
+}
+.how-we-work > h5{
+  text-align: center;
+  width: 90%;
+}
+.raspberry{
+  position: relative;
+  bottom: 25px;
+  left: 200px;
+}
+
+.catalog-container{
+  position: relative;
+  top: 970px;
+  text-align: center;
+
+}
+.catalog{
+  margin-top: 50px;
+  display: flex;
+  justify-content: space-between;
+  
+
+}
+.catalog> img{
+width: 100px;
+height: 110px;
+
+}
+.catalog-img{
+  background: #FDE5EA;
+  box-shadow: 0px 10px 40px 0px #0000004D;
+
+  width: 150px;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  border-radius: 50%;
+}
+.cupcakes-model> h3{
+font-size: 22px;
+font-weight: 600;
+line-height: 26px;
+color: #9C0746;
+
+
+}
+.cupcakes-model>button{
+  width: 160px;
+  height: 45px;
+  border-radius: 50px;
+  background: linear-gradient(85.61deg, #9C0746 -15.57%, #B44E79 128.11%);
+  box-shadow: 0px 20px 40px 0px #42021D4F;
+ margin: auto;
+ margin-top: 20px;
+ margin-bottom: 50px;
+
+}

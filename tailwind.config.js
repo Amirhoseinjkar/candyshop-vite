@@ -8,6 +8,8 @@ export default {
     extend: {
       colors: {
         'thispink': '#9C0746',
+        
+
       },
     },
   },
