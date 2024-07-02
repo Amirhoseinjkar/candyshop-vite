@@ -2,45 +2,59 @@ import React from "react";
 
 function WhyUs() {
   return (
-    <>
+    <> 
+     <p className="why-us">Why Us ?</p>
       <div className="why-us-container">
-        <p className="why-us">Why Us ?</p>
-         <div className="bt">
-        <img
-          src="src\assets\whyus\icons8-бутылка-молока-100 1.png"
-          alt="bottle-pic"
-        />
-</div>
-        <p>Quality</p>
+      
+        <div>
         <div className="bt">
-        <img src="src\assets\whyus\icons8-печь-100 1.png" alt="oven pic" />
+          <img
+            src="src\assets\whyus\icons8-бутылка-молока-100 1.png"
+            alt="bottle-pic"
+          />
+        </div>
+        <p>Quality</p>
+        
+        </div>
+        <div>
+        <div className="bt">
+          <img src="src\assets\whyus\icons8-печь-100 1.png" alt="oven pic" />
         </div>
         <p>equipment</p>
+        </div>
+        <div>
         <div className="bt">
-        <img
-          src="src\assets\whyus\icons8-кулинарная-книга-100 1.png"
-          alt="book-pic"
-        />
+          <img
+            src="src\assets\whyus\icons8-кулинарная-книга-100 1.png"
+            alt="book-pic"
+          />
         </div>
         <p>Unique recipes</p>
-        <div className="bt">
-        <img
-          src="src\assets\whyus\icons8-кок-мужчина-100 1.png"
-          alt="chef-pic"
-        />
         </div>
-        <p>The best confectioners</p>
+        <div>
         <div className="bt">
-        <img
-          src="src\assets\whyus\icons8-деньги-100 (1) 1.png"
-          alt="thicket-pic"
-        />
+          <img
+            src="src\assets\whyus\icons8-кок-мужчина-100 1.png"
+            alt="chef-pic"
+          />
+        </div>
+        <p>best cooks</p>
+        </div>
+        <div>
+        <div className="bt">
+          <img
+            src="src\assets\whyus\icons8-деньги-100 (1) 1.png"
+            alt="thicket-pic"
+          />
         </div>
         <p>Price</p>
+        </div>
+        <div>
         <div className="bt">
-        <img src="src\assets\whyus\icons8-скидка-100 1.png" alt="off-pic" />
+          <img src="src\assets\whyus\icons8-скидка-100 1.png" alt="off-pic" />
         </div>
         <p>loyalty</p>
+        </div>
       </div>
       <img
         className="w-20"

@@ -5,6 +5,7 @@ function HowWeWork() {
     <div className='how-we-work-container'>
       <p className='text-center font-bold text-2xl'>How Do We Work</p>
       <br /><br /><br />
+      <div className='how-we-work-items'>
       <div className=" how-we-work">
         <div className='how-we-work1'>
           <p>01</p>
@@ -37,6 +38,7 @@ function HowWeWork() {
         </div>
         <h4>Shipping and payment</h4>
           <h5>Lorem ipsum dolor sit amet consectetur adipisicing elit. A sapiente minima inventore perspiciatis facilis temporibus enim!</h5>
+      </div>
       </div>
       <img className='raspberry' src="src\assets\Malinka-bez-hvostika 3.png" alt="raspberry" />
     </div>

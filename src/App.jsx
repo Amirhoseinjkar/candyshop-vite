@@ -56,10 +56,7 @@ function App() {
             <img src="src\assets\pov2-2 1.png" alt="chef" />
           </div>
         </div>
-        <div className="dot1 absolute bg-thispink w-5 h-5"></div>
-        <div className="dot2 absolute bg-thispink w-5 h-5"></div>
-        <div className="dot3 absolute bg-thispink w-5 h-5"></div>
-        <div className="dot4 absolute bg-thispink w-5 h-5"></div>
+       
       </div>
       <div className="new-products">
         <p className="font-bold text-3xl relative top-[670px] text-center">
