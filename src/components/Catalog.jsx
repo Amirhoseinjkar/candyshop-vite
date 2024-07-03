@@ -2,7 +2,11 @@ import React, { useState } from "react";
 
 function Catalog({ catalog }) {
   const [index, setindex] = useState(0);
-  const handleLeftArrow = () => {};
+  const handleLeftArrow = () => {
+    const isFristIndex = index === 0;
+    const newIndex = isFristIndex ? catalog.length - 1 : index - 1;
+    setindex(newIndex);
+  };
   const handleRightArrow = () => {
     const isLastIndex = index === catalog.length - 1;
     const newindex = isLastIndex ? 0 : index + 1;
@@ -11,12 +15,10 @@ function Catalog({ catalog }) {
   return (
     <div className="catalog-container">
       <h1 className="font-bold text-2xl ">Catalog of delicious treats</h1>
-      <div className="catalog">
-        <img src={catalog[index].url} alt="cake" />
+      <div className="catalog flex justify-center">
         <div className="catalog-img">
           <img src={catalog[index].url} alt="cake" />
         </div>
-        <img src={catalog[index].url} alt="cake" />
       </div>
       <div className="mt-10 flex justify-center gap-16">
         <button onClick={handleLeftArrow}>

@@ -17,10 +17,10 @@ function Regestration() {
         </div>
         <button>submit</button>
         <h4 className="mt-5 mb-6 text-[13px]">
-        By clicking on the button,<br /> you consent to the processing of <br/> your personal data
+          By clicking on the button,
+          <br /> you consent to the processing of <br /> your personal data
         </h4>
       </div>
-
     </div>
   );
 }

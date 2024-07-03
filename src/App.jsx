@@ -21,6 +21,10 @@ function App() {
     },
     { url: "src/assets/catalog/A_Little_Love_Goes_a 1.png" },
     { url: "src/assets/catalog/012.3 1.png" },
+    {
+      url: "src/assets/catalog/043a3db585170c16ecc0c9858cde1c71f8fb3ef031ad7d2b1ccfc07f92bbaa1c3f3d25405a5bd2f6a322c25117b3689c 1.png",
+    },
+    { url: "src/assets/catalog/700 1.png" },
   ];
 
   return (
@@ -33,7 +37,11 @@ function App() {
             alt="hamberger menu"
           />
           <img src="src\assets\Sweet Paradise.png" alt="sweet paradise text" />
-          <img src="src\assets\icons8-корзина-2-96 1.png" alt="shopping list" />
+          <img
+            className="mr-8"
+            src="src\assets\icons8-корзина-2-96 1.png"
+            alt="shopping list"
+          />
         </div>
         <Header />
         <div className="slides-container">
@@ -56,7 +64,6 @@ function App() {
             <img src="src\assets\pov2-2 1.png" alt="chef" />
           </div>
         </div>
-       
       </div>
       <div className="new-products">
         <p className="font-bold text-3xl relative top-[670px] text-center">
@@ -67,15 +74,17 @@ function App() {
       <NewProducts />
       <HowWeWork />
       <Catalog catalog={catalog} />
-      <Individuals/>
-      <Reviews/>
-      <Regestration/>
-      <footer >
+      <Individuals />
+      <Reviews />
+      <Regestration />
+      <footer>
         <img src="src\assets\467 1.png" alt="footer-dust" />
         <div className="footer-div pt-2 pb-6">
           <h2 className="mt-6 mb-6 text-[22px] font-bold">Sweet Paradise</h2>
           <p>+98 990 725 9107</p>
-          <p className="mt-8 ">All rights reserved &copy;{new Date().getFullYear()}</p>
+          <p className="mt-8 ">
+            All rights reserved &copy;{new Date().getFullYear()}
+          </p>
         </div>
       </footer>
     </>

@@ -3,6 +3,9 @@
   padding: 0;
   box-sizing: border-box;
 }
+.container {
+  width: 100%;
+}
 
 .navbar {
   display: flex;
@@ -11,11 +14,13 @@
   margin-left: 10px;
   margin-top: 10px;
   margin-right: 10px;
+  width: 100vw;
 }
 .header-container {
   display: flex;
   flex-direction: column;
   align-items: center;
+  width: 100vw;
 }
 .header-container > h1 {
   text-align: center;
@@ -37,7 +42,7 @@
 
 .slides-container {
   margin-top: 90px;
-  width: 100%;
+  width: 100vw;
   height: 225px;
   display: flex;
   justify-content: center;
@@ -95,7 +100,7 @@
   text-align: center;
   width: 100%;
 }
-.why-us{
+.why-us {
   position: relative;
   top: 550px;
   text-align: center;
@@ -140,8 +145,6 @@
 .circle-dots-img {
   margin-top: 10px;
 }
-
-
 
 .new-products-container {
   position: relative;
@@ -430,23 +433,54 @@ footer > img {
   .why-us-container {
     position: relative;
     top: 900px;
-    font-size: 27px;
+    font-size: 20px;
     display: grid;
     width: 100%;
     grid-template-columns: 1fr 1fr;
-    
   }
   .why-us {
     position: relative;
     top: 900px;
-    
   }
-  
-  
- 
-  .how-we-work-items{
+
+  .how-we-work-items {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  
+  .cupcakes-model > p {
+    text-align: center;
+    width: 40%;
+    margin: auto;
+  }
+  .individuals-box {
+    width: 700px;
+    margin: auto;
+  }
+  .individuals-leaf {
+    left: 10%;
+    width: 150px;
+  }
+  .individuals-container > h4 {
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+  }
+  .individual-name {
+    left: 63%;
+  }
+  .individual-number {
+    display: none;
+  }
+  .reviews-container > h2 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .new-products-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+  .video1 > img {
+    width: 60%;
+    height: 100%;
+  }
 }

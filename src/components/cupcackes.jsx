@@ -3,19 +3,16 @@ import React, { useState } from "react";
 const CupCackes = ({ slides }) => {
   const [index, setindex] = useState(0);
 
-  const handleRightArrow=()=>{
-   const isLastIndex = index === slides.length -1;
-   const newIndex = isLastIndex? 0 : index + 1
-   setindex(newIndex)
-
-  }
-  const handleLeftArrow=()=>{
-  const isFirstIndex = index === 0;
-  const newIndex  = isFirstIndex? slides.length - 1 : index -1;
-  setindex(newIndex)
-
-  }
-
+  const handleRightArrow = () => {
+    const isLastIndex = index === slides.length - 1;
+    const newIndex = isLastIndex ? 0 : index + 1;
+    setindex(newIndex);
+  };
+  const handleLeftArrow = () => {
+    const isFirstIndex = index === 0;
+    const newIndex = isFirstIndex ? slides.length - 1 : index - 1;
+    setindex(newIndex);
+  };
 
   return (
     <div>
