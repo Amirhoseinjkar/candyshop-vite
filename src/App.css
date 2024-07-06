@@ -16,6 +16,23 @@
   margin-right: 10px;
   width: 100vw;
 }
+.hamber-menu{
+background: rgba(97, 97, 97, 0.2);
+position: absolute;
+top: 1px;
+left: 1px;
+border-radius: 5px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(5px);
+-webkit-backdrop-filter: blur(5px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+}
+.hamber-menu-bg>h3:hover{
+background: rgba(0, 0, 0, 0.1);
+border-radius: 4px;
+transition: .7s;
+
+}
 .header-container {
   display: flex;
   flex-direction: column;
@@ -27,6 +44,8 @@
 }
 .header-button1 {
   background: linear-gradient(85.61deg, #9c0746 -15.57%, #b44e79 128.11%);
+  color: #fff;
+  
 }
 .header-button1,
 .header-button2 {
@@ -387,8 +406,17 @@ footer > img {
   color: #fff;
   text-align: center;
 }
-
+@media only screen and (max-width: 768px) {
+.navbar-list{
+    display: none;
+    
+  }
+}
 @media only screen and (min-width: 768px) {
+  .navbar-hide-btn{
+display: none;
+  }
+  
   .header-button1,
   .header-button2 {
     width: 300px;

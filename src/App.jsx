@@ -9,6 +9,7 @@ import Catalog from "./components/Catalog";
 import Individuals from "./components/individuals";
 import Reviews from "./components/reviews";
 import Regestration from "./components/regestration";
+import Navbar from "./components/Navbar";
 function App() {
   const slides = [
     { url: "src/assets/pink.png", title: "pink" },
@@ -30,19 +31,7 @@ function App() {
   return (
     <>
       <div className="container">
-        <div className="navbar">
-          <img
-            className=""
-            src="src\assets\Бургер иконка.png"
-            alt="hamberger menu"
-          />
-          <img src="src\assets\Sweet Paradise.png" alt="sweet paradise text" />
-          <img
-            className="mr-8"
-            src="src\assets\icons8-корзина-2-96 1.png"
-            alt="shopping list"
-          />
-        </div>
+        <Navbar/>
         <Header />
         <div className="slides-container">
           <CupCackes slides={slides} />

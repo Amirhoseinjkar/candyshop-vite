@@ -16,24 +16,26 @@ const CupCackes = ({ slides }) => {
 
   return (
     <div>
-      <div className="slides-container2">
-        <div
-          className="slides-img"
-          style={{ backgroundImage: `url(${slides[index].url})` }}
-        ></div>
-      </div>
-      <div className="arrow-btn">
-        <button onClick={handleLeftArrow}>
-          <img src="src\assets\leftaroow.png" alt="left arrow" />
-        </button>
-        <button onClick={handleRightArrow}>
-          <img src="src\assets\rightarrow.png" alt="right arrow" />
-        </button>
-      </div>
-      <div className="cupckake-button-container ">
-        <button>add to cart</button>
-        <img src="src\assets\comp_single_01 1.png" alt="leaf" />
-      </div>
+      
+        <div className="slides-container2">
+          <div
+            className="slides-img"
+            style={{ backgroundImage: `url(${slides[index].url})` }}
+          ></div>
+        </div>
+        <div className="arrow-btn">
+          <button onClick={handleLeftArrow}>
+            <img src="src\assets\leftaroow.png" alt="left arrow" />
+          </button>
+          <button onClick={handleRightArrow}>
+            <img src="src\assets\rightarrow.png" alt="right arrow" />
+          </button>
+        </div>
+        <div className="cupckake-button-container ">
+          <button>add to cart</button>
+          <img src="src\assets\comp_single_01 1.png" alt="leaf" />
+        </div>
+      
     </div>
   );
 };
